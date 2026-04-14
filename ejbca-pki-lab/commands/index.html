@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>EJBCA PKI Lab | Colleen Cummings</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 40px;
+      background: #f5f7fa;
+      color: #222;
+      line-height: 1.6;
+    }
+    h1, h2 {
+      color: #1f3c88;
+    }
+    .card {
+      background: white;
+      padding: 24px;
+      border-radius: 10px;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.08);
+      margin-top: 24px;
+    }
+    img {
+      max-width: 100%;
+      border-radius: 8px;
+      margin-top: 16px;
+      border: 1px solid #ddd;
+    }
+    a {
+      color: #1f3c88;
+      font-weight: bold;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    ul {
+      margin-top: 10px;
+    }
+  </style>
+</head>
+<body>
+  <h1>Enterprise PKI Lab using EJBCA</h1>
+  <p>Built by Colleen Cummings</p>
+
+  <div class="card">
+    <h2>Overview</h2>
+    <p>
+      This project demonstrates a hands-on Public Key Infrastructure (PKI) lab using
+      EJBCA and Docker. It simulates enterprise certificate management workflows,
+      including certificate authority setup, certificate profiles, end entities,
+      and certificate-based authentication.
+    </p>
+  </div>
+
+  <div class="card">
+    <h2>Key Skills Demonstrated</h2>
+    <ul>
+      <li>PKI and Certificate Authority administration</li>
+      <li>X.509 certificate lifecycle management</li>
+      <li>EJBCA deployment with Docker</li>
+      <li>End Entity and Certificate Profile configuration</li>
+      <li>PKCS#12 certificate generation and browser import</li>
+      <li>TLS and certificate-based authentication</li>
+    </ul>
+  </div>
+
+  <div class="card">
+    <h2>Project Highlights</h2>
+    <ul>
+      <li>Deployed EJBCA in Docker with TLS setup</li>
+      <li>Generated and imported SuperAdmin certificate</li>
+      <li>Created Certificate Profile: MyUserCert</li>
+      <li>Created End Entity Profile: MyUsers</li>
+      <li>Created test user and simulated certificate enrollment</li>
+    </ul>
+  </div>
+
+  <div class="card">
+    <h2>Screenshots</h2>
+    <p>Certificate Profile (MyUserCert)</p>
+    <img src="screenshots/certificate-profile.png" alt="Certificate Profile">
+
+    <p>End Entity Profile (MyUsers)</p>
+    <img src="screenshots/end-entity-profile.png" alt="End Entity Profile">
+
+    <p>Add End Entity (testuser)</p>
+    <img src="screenshots/add-user.png" alt="Add End Entity">
+
+    <p>Enrollment Page</p>
+    <img src="screenshots/enrollment.png" alt="Enrollment Page">
+
+    <p>Downloaded Certificate</p>
+    <img src="screenshots/certificate-download.png" alt="Downloaded Certificate">
+  </div>
+
+  <div class="card">
+    <h2>GitHub Repository</h2>
+    <p>
+      <a href="https://github.com/Geeklady55/EJBCA-LAB" target="_blank">
+        View the full project on GitHub
+      </a>
+    </p>
+  </div>
+</body>
+</html>
